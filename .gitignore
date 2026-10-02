@@ -14,5 +14,3 @@ dist/
 npm-debug.log*
 coverage/
 
-# TypeScript build cache
-*.tsbuildinfo
