@@ -8,10 +8,8 @@
  */
 async function login(req, res) {
     //   const result = await authService.login(req.validated.body);
-    const result = {
-        accessToken: "dummyAccessToken",
-        refreshToken: "dummyRefreshToken"
-    };
+    const result = req.body
+    console.log("Login result:", result);
     res.json({ data: result });
 }
 

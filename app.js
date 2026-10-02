@@ -1,5 +1,5 @@
-const express = require('express');
-const authRoutes = require('./authRoutes/auth.routes');
+import express from 'express';
+import authRoutes from './authRoutes/auth.routes.js';
 
 const createApp = () => {
     const app = express();
@@ -12,4 +12,4 @@ const createApp = () => {
     return app;
 };
 
-module.exports = createApp;
+export default createApp;
